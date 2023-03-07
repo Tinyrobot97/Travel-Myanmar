@@ -1,0 +1,50 @@
+
+.container {
+    position: relative;
+    background-color: rgb(0, 0, 0,0.9);
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+svg {
+    font-size: 130px;
+    padding-top: -5%;
+}
+
+.copy {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-dasharray: 8% 40%;
+    stroke-dashoffset: 10%;
+    animation: textanimation 6s linear infinite;
+}
+@keyframes textanimation {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+}
+
+.copy1 {
+    stroke: #e4ddf1;
+    animation-delay: -1s;
+}
+.copy2 {
+    stroke: #ffe600;
+    animation-delay: -2s;
+}
+.copy3 {
+    stroke: #fbff22;
+    animation-delay: -3s;
+}
+.copy4 {
+    stroke: #ebd440;
+    animation-delay: -4s;
+}
+.copy5 {
+    stroke: #ffc107;
+    animation-delay: -5s;
+}
+
+
+
